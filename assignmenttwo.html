@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Osnovne aritmeticke operacije</title>
+        <style>
+            body {
+                background-color: rgb(143, 139, 146);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                
+            }
+
+            h1 {
+                font-size: medium;
+                font-weight: bold;
+                
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Osnovne aritmeticke operacije</h1>
+        
+        <script>
+            var x= prompt("Unesite prvi broj");
+            var o = prompt("Unesite zeljenu racunsku operaciju: +, -, *, /,");
+            var y=prompt("Unesite drugi broj");
+
+            switch (o) {
+
+            case '+':
+            document.write("Suma dva broja je: " + (parseInt(x) + parseInt(y)));
+            break;
+
+            case '-':
+            document.write("Razlika dva broja je: " + (parseInt(x) - parseInt(y)));
+            break;
+
+            case '*':
+            document.write("Mnozenjem ova dva broja dobijamo: " + (parseInt(x) * parseInt(y)));
+            break;
+
+            case '/':
+            document.write("Deljenjem ova dva broja dobijamo: " + (parseInt(x) / parseInt(y)));
+
+
+
+            }
+
+        </script>
+
+    </body>
+</html>
